@@ -4,15 +4,15 @@ function Layout({ children }) {
   return (
     <>
       <header className="header">
-        <h2>Botostart CRM</h2>
+        <h2>CRM</h2>
         <Link href="/add-customer">Add Customer</Link>
       </header>
       <div className="main">{children}</div>
       <footer className="footer">
-        <a href="https://botostart.ir" target="_blank" rel="noreferrer">
-          Botostart
+        <a href="https://github.com/sasan-farhadi" target="_blank" rel="noreferrer">
+          SasanFarhadi
         </a>{" "}
-        Next.js course | CRM Project &copy;
+        CRM Project &copy;
       </footer>
     </>
   );
